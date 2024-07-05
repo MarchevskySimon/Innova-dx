@@ -1,0 +1,265 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+
+  margin: 0;
+  padding: 0;
+
+  text-decoration: none;
+  list-style: none;
+}
+/*
+ * NAV
+ */
+nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  background-color: #fff;
+  z-index: 100;
+}
+#menu-button {
+  width: 50px;
+  margin-left: 1rem;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+}
+nav li {
+  margin-right: 2rem;
+}
+nav a {
+  color: black;
+}
+nav img {
+  width: 25px;
+}
+nav a:hover {
+  color: #13625d;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #997344;
+}
+nav div svg {
+  width: 15px;
+  margin-right: 0.5rem;
+}
+nav div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+nav span {
+  font-weight: 100;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  color: white;
+  background-color: #13625d;
+  border-radius: 50px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+/*
+ * HEADER
+ */
+header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  /* background-image: url("img/bci.jpg");
+  background-size: cover;
+  background-position: fixed; */
+}
+header svg {
+  position: absolute;
+  width: 100%;
+  bottom: -2px;
+}
+header img {
+  position: absolute;
+  top: 15%;
+  width: 35vw;
+  z-index: 5;
+}
+
+/*
+ * SECTION
+ */
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem 2rem;
+  background: linear-gradient(#b4d9cd, #003531);
+}
+section h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 2rem 0;
+  color: #997344;
+  text-align: center;
+}
+section p {
+  font-size: 2rem;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+}
+section a {
+  font-weight: 700;
+  margin: 4rem 0;
+  padding: 1rem 2rem;
+  color: white;
+  background-color: #997344;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.4);
+  border: 3px solid #997344;
+  border-radius: 50px;
+  transition: 0.2s;
+}
+section a:hover {
+  transform: scale(1.1);
+}
+section ul {
+  position: relative;
+  text-align: center;
+}
+section ul svg {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  opacity: 0.6;
+}
+section li {
+  font-size: 1.2rem;
+  font-weight: 100;
+  position: relative;
+  margin-bottom: 2rem;
+  color: white;
+  z-index: 10;
+}
+.section-cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  width: 100%;
+}
+/* .darker {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #003531;
+  border-radius: 10px;
+  opacity: 0.6;
+} */
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  margin: 0 1rem;
+  padding: 1rem;
+  background-color: #b4d9cd;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+.card svg {
+  width: 150px;
+}
+.card div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.card h5 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: #13625d;
+}
+.card a {
+  font-weight: 100;
+  margin: 1rem 0;
+  padding: 0.5rem 2rem;
+  color: #b4d9cd;
+  border: 1px solid #13625d;
+  background-color: #13625d;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.6);
+}
+.card a:hover {
+  transform: scale(1);
+  background-color: #997344;
+  border-color: #997344;
+  color: white;
+}
+
+/* 
+ * FOOTER
+ */
+
+footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.footer-svg {
+  position: absolute;
+  z-index: -1;
+}
+.svg-left {
+  top: 20px;
+  left: 20px;
+}
+.svg-right {
+  bottom: 20px;
+  right: 20px;
+}
+footer h1 {
+  font-size: 3em;
+  font-weight: 900;
+  margin-bottom: 3rem;
+  color: #997344;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+}
+.contact ul {
+  margin: 0 2rem;
+}
+.contact li {
+  margin-bottom: 1rem;
+}
+.contact h5 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.contact svg {
+  width: 20px;
+  margin-right: 0.5rem;
+}
+.copiright {
+  padding: 0.5rem 0;
+  background-color: #13625d;
+  text-align: center;
+}
+.copiright i {
+  font-size: 0.8rem;
+  font-style: normal;
+  color: white;
+}
