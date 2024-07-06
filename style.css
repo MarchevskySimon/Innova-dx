@@ -163,6 +163,15 @@ section li {
   border-radius: 10px;
   opacity: 0.6;
 } */
+
+.our-mission {
+  line-height: 200%;
+  margin: 3rem 8rem 1rem 8rem;
+  font-weight: 700;
+}
+.about-us {
+  margin: 2rem 0 0 0;
+}
 .card {
   display: flex;
   justify-content: space-between;
