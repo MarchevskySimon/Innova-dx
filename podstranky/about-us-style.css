@@ -1,0 +1,135 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+
+  margin: 0;
+  padding: 0;
+
+  text-decoration: none;
+  list-style: none;
+}
+/*
+   * NAV
+   */
+nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  background-color: #fff;
+  z-index: 100;
+}
+#menu-button {
+  width: 50px;
+  margin-left: 1rem;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+}
+nav li {
+  margin-right: 2rem;
+}
+nav a {
+  color: black;
+}
+nav img {
+  width: 25px;
+}
+nav a:hover {
+  color: #13625d;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #997344;
+}
+nav div svg {
+  width: 15px;
+  margin-right: 0.5rem;
+}
+nav div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+nav span {
+  font-weight: 100;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  color: white;
+  background-color: #13625d;
+  border-radius: 50px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.6);
+}
+/* 
+ * HEADER
+ */
+header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+header h1 {
+  font-size: 6em;
+  font-weight: 900;
+  color: #997344;
+  text-align: center;
+  z-index: 1;
+}
+header svg {
+  position: absolute;
+  width: 100%;
+  bottom: -2px;
+}
+
+/*
+ * SECTION 
+ */
+
+section {
+  padding: 0 5rem 5rem 5rem;
+  background: linear-gradient(#b4d9cd, #003531);
+}
+section p {
+  font-weight: 100;
+  line-height: 200%;
+  margin-top: 1rem;
+  color: #fff;
+}
+section img {
+  width: 500px;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-up {
+  margin-bottom: 6rem;
+}
+.text-up span {
+  margin-right: 4rem;
+}
+.text-down span {
+  margin-left: 4rem;
+}
+
+/* 
+ * COPIRIGHT
+ */
+
+.copiright {
+  padding: 0.5rem 0;
+  background-color: #13625d;
+  text-align: center;
+}
+.copiright i {
+  font-size: 0.8rem;
+  font-style: normal;
+  color: white;
+}

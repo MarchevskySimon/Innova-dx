@@ -1,0 +1,295 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+
+  margin: 0;
+  padding: 0;
+
+  text-decoration: none;
+  list-style: none;
+}
+/*
+   * NAV
+   */
+nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  background-color: #fff;
+  z-index: 100;
+}
+#menu-button {
+  width: 50px;
+  margin-left: 1rem;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+}
+nav li {
+  margin-right: 2rem;
+}
+nav a {
+  color: black;
+}
+nav img {
+  width: 25px;
+}
+nav a:hover {
+  color: #13625d;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #997344;
+}
+nav div svg {
+  width: 15px;
+  margin-right: 0.5rem;
+}
+nav div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+nav span {
+  font-weight: 100;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  color: white;
+  background-color: #13625d;
+  border-radius: 50px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.6);
+}
+/* 
+ * HEADER
+ */
+
+/*
+ * SECTION 
+ */
+
+section {
+  position: relative;
+}
+header {
+  padding: 7rem 5rem 0rem 5rem;
+}
+.section-wrap {
+  padding: 5rem 5rem 0rem 5rem;
+  background: linear-gradient(#82b4a4, #003531);
+}
+section h5 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #997344;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+section p {
+  position: relative;
+  font-weight: 100;
+  line-height: 200%;
+  margin-bottom: 1rem;
+  color: #fff;
+  z-index: 1;
+}
+header p {
+  color: black;
+}
+
+section p span {
+  font-weight: 700;
+  color: #13625d;
+}
+section ul {
+  position: relative;
+  padding: 1rem 8vw;
+}
+.img-section {
+  position: relative;
+}
+.img-section svg {
+  position: absolute;
+  width: 700px;
+  transform: translate(-50%, -50%);
+  top: 45%;
+  left: 50%;
+  opacity: 0.2;
+}
+section li {
+  list-style: circle;
+  position: relative;
+  font-weight: 100;
+  line-height: 200%;
+  margin: 2rem 0;
+  padding-left: 1rem;
+  color: #fff;
+  z-index: 1;
+}
+header li {
+  color: black;
+}
+li span {
+  font-weight: 700;
+  color: #13625d;
+}
+.str-wrap {
+  display: flex;
+  justify-content: space-around;
+}
+.str-box {
+  width: 40%;
+}
+.str-box ul {
+  padding: 0;
+}
+.str-box li {
+  font-size: 0.8rem;
+}
+
+.str {
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+  background-color: #13625d;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+.str h5 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-align: start;
+}
+.str p {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+.str img {
+  width: 100%;
+  border-radius: 10px;
+}
+.text {
+  padding: 2rem 1rem 0 1rem;
+}
+table {
+  width: 100%;
+  margin-top: 3rem;
+  background-color: #13625d;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  color: #fff;
+  border-collapse: collapse;
+}
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 20px;
+}
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 20px;
+}
+th {
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: #997344;
+  padding: 1rem;
+}
+td {
+  font-weight: 100;
+  padding: 1rem 0;
+  text-align: center;
+}
+tr:nth-child(2) {
+  background-color: #0d4743;
+}
+tr:nth-child(4) {
+  background-color: #0d4743;
+}
+
+.last-p {
+  margin: 2rem 0 4rem 0;
+  text-align: center;
+}
+
+.section-bottom {
+  margin-top: 3rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+.section-bottom h5 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.section-bottom h5:nth-child(3) {
+  margin-top: 3rem;
+}
+
+/* BOTTOM-TEXT */
+
+.bottom-text {
+  padding: 2rem 2rem 1rem 2rem;
+  text-align: center;
+}
+.bottom-text h5 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #997344;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.bottom-text p {
+  position: relative;
+  font-weight: 100;
+  line-height: 200%;
+  margin-bottom: 1rem;
+}
+.bottom-text-box {
+  margin-top: 3rem;
+}
+/* 
+ * COPIRIGHT
+ */
+
+.copiright {
+  padding: 0.5rem 0;
+  background-color: #13625d;
+  text-align: center;
+}
+.copiright i {
+  font-size: 0.8rem;
+  font-style: normal;
+  color: white;
+}
+
+/* MEDIA Q. */
+@media only screen and (max-width: 1000px) {
+  .str {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
+  section ul {
+    padding: 1rem;
+  }
+  .img-section svg {
+    display: none;
+  }
+  .str-wrap {
+    flex-direction: column;
+  }
+  .str-box {
+    width: 100%;
+  }
+  header {
+    padding: 5rem 2rem 0 2rem;
+  }
+  .section-wrap {
+    padding: 5rem 2rem 0 2rem;
+  }
+}

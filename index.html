@@ -19,70 +19,52 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body id="body">
     <!-- NAV -->
+
     <nav>
+      <img src="img/Group.svg" alt="mini-logo" />
+
       <ul>
-        <li>
-          <img src="img/mini-logo.svg" alt="mini-logo" />
-        </li>
         <li><a href="">HOME</a></li>
         <li><a href="">OUR PRODUCTS</a></li>
         <li><a href="">ONLINE CATALOG</a></li>
-        <li><a href="">ABOUT US</a></li>
+        <li><a href="podstranky/about-us.html">ABOUT US</a></li>
         <li><a href="">CONTACT</a></li>
       </ul>
-      <div>
-        <span>
-          <svg
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-            <g
-              id="SVGRepo_tracerCarrier"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            ></g>
-            <g id="SVGRepo_iconCarrier">
-              <path
-                d="M3 5.5C3 14.0604 9.93959 21 18.5 21C18.8862 21 19.2691 20.9859 19.6483 20.9581C20.0834 20.9262 20.3009 20.9103 20.499 20.7963C20.663 20.7019 20.8185 20.5345 20.9007 20.364C21 20.1582 21 19.9181 21 19.438V16.6207C21 16.2169 21 16.015 20.9335 15.842C20.8749 15.6891 20.7795 15.553 20.6559 15.4456C20.516 15.324 20.3262 15.255 19.9468 15.117L16.74 13.9509C16.2985 13.7904 16.0777 13.7101 15.8683 13.7237C15.6836 13.7357 15.5059 13.7988 15.3549 13.9058C15.1837 14.0271 15.0629 14.2285 14.8212 14.6314L14 16C11.3501 14.7999 9.2019 12.6489 8 10L9.36863 9.17882C9.77145 8.93713 9.97286 8.81628 10.0942 8.64506C10.2012 8.49408 10.2643 8.31637 10.2763 8.1317C10.2899 7.92227 10.2096 7.70153 10.0491 7.26005L8.88299 4.05321C8.745 3.67376 8.67601 3.48403 8.55442 3.3441C8.44701 3.22049 8.31089 3.12515 8.15802 3.06645C7.98496 3 7.78308 3 7.37932 3H4.56201C4.08188 3 3.84181 3 3.63598 3.09925C3.4655 3.18146 3.29814 3.33701 3.2037 3.50103C3.08968 3.69907 3.07375 3.91662 3.04189 4.35173C3.01413 4.73086 3 5.11378 3 5.5Z"
-                stroke="#dbae72"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-            </g>
-          </svg>
-          + 421 911 211 404
-        </span>
+    </nav>
 
-        <span>
-          <svg
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-            <g
-              id="SVGRepo_tracerCarrier"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            ></g>
-            <g id="SVGRepo_iconCarrier">
-              <path
-                d="M3 8L8.44992 11.6333C9.73295 12.4886 10.3745 12.9163 11.0678 13.0825C11.6806 13.2293 12.3194 13.2293 12.9322 13.0825C13.6255 12.9163 14.2671 12.4886 15.5501 11.6333L21 8M6.2 19H17.8C18.9201 19 19.4802 19 19.908 18.782C20.2843 18.5903 20.5903 18.2843 20.782 17.908C21 17.4802 21 16.9201 21 15.8V8.2C21 7.0799 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V15.8C3 16.9201 3 17.4802 3.21799 17.908C3.40973 18.2843 3.71569 18.5903 4.09202 18.782C4.51984 19 5.07989 19 6.2 19Z"
-                stroke="#dbae72"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-            </g>
-          </svg>
-          dnk@pharma.sk
-        </span>
-      </div>
+    <!-- Nav responsive -->
+    <nav class="responsive-nav">
+      <img src="img/Group.svg" alt="mini-logo" />
+
+      <svg
+        id="nav-button"
+        viewBox="0 -0.5 25 25"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g
+          id="SVGRepo_tracerCarrier"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></g>
+        <g id="SVGRepo_iconCarrier">
+          <path
+            d="M6.5 11.75C6.08579 11.75 5.75 12.0858 5.75 12.5C5.75 12.9142 6.08579 13.25 6.5 13.25V11.75ZM18.5 13.25C18.9142 13.25 19.25 12.9142 19.25 12.5C19.25 12.0858 18.9142 11.75 18.5 11.75V13.25ZM6.5 15.75C6.08579 15.75 5.75 16.0858 5.75 16.5C5.75 16.9142 6.08579 17.25 6.5 17.25V15.75ZM18.5 17.25C18.9142 17.25 19.25 16.9142 19.25 16.5C19.25 16.0858 18.9142 15.75 18.5 15.75V17.25ZM6.5 7.75C6.08579 7.75 5.75 8.08579 5.75 8.5C5.75 8.91421 6.08579 9.25 6.5 9.25V7.75ZM18.5 9.25C18.9142 9.25 19.25 8.91421 19.25 8.5C19.25 8.08579 18.9142 7.75 18.5 7.75V9.25ZM6.5 13.25H18.5V11.75H6.5V13.25ZM6.5 17.25H18.5V15.75H6.5V17.25ZM6.5 9.25H18.5V7.75H6.5V9.25Z"
+            fill="#000000"
+          ></path>
+        </g>
+      </svg>
+
+      <ul id="nav-ul">
+        <li><a href="">HOME</a></li>
+        <li><a href="">OUR PRODUCTS</a></li>
+        <li><a href="">ONLINE CATALOG</a></li>
+        <li><a href="podstranky/about-us.html">ABOUT US</a></li>
+        <li><a href="">CONTACT</a></li>
+      </ul>
     </nav>
 
     <!-- HEADER -->
@@ -100,13 +82,14 @@
     </header>
 
     <!-- SECTION -->
+
     <section>
       <h1>
         InnovaDx <br />
         Real-Time PCR kits
       </h1>
       <p>The right choice for your laboratory !</p>
-      <a href="">OUR CATALOG</a>
+      <a href="" class="button-style">OUR CATALOG</a>
 
       <ul>
         <svg
@@ -154,15 +137,60 @@
             </g>
           </g>
         </svg>
+
         <li>Ready to use</li>
         <li>Easy storage & transport</li>
         <li>For wide range of pathogens and SNPs</li>
       </ul>
+
       <p class="our-mission">
         Our mission: to provide innovative, reliable and cost-effective
         diagnostic testing
       </p>
-      <a href="" class="about-us">ABOUT US</a>
+
+      <button id="au-button" href="" class="about-us button-style">
+        ABOUT US
+      </button>
+
+      <div id="au-wrap" class="about-us-wrap">
+        <p>
+          The company Diagnostické centrum DNK, s.r.o., established in 2000,
+          specializes in the production of real-time PCR diagnostic kits.
+        </p>
+        <p>
+          Our mission is to provide innovative, reliable, accessible, and
+          cost-effective diagnostic solutions for medical laboratories
+          worldwide.
+        </p>
+        <p>
+          Our extensive product line includes kits for the extraction of nucleic
+          acids from clinical samples, Real-Time PCR kits for detecting DNA/RNA
+          of human infectious disease agents, and Real-Time PCR kits for
+          identifying genetic single-nucleotide polymorphisms (SNPs) from
+          biological specimens.
+        </p>
+        <p>
+          Our offerings include kits for detecting nucleic acids of pathogens
+          causing various viral diseases, sexually transmitted infections
+          (STIs), TORCH and herpetic infections, zoonotic diseases,
+          tuberculosis, respiratory tract infections, gastrointestinal
+          infections, nosocomial infections, and tropical or especially
+          dangerous diseases.
+        </p>
+        <p>
+          In addition, we provide genetic kits for detecting conditions such as
+          thrombophilia, cardiovascular diseases, hereditary breast and ovarian
+          cancer, hereditary hemochromatosis, reproductive diseases, autoimmune
+          diseases, and warfarin pharmacogenetics.
+        </p>
+        <p>
+          Our Real-Time PCR diagnostic kits adhere to international safety and
+          quality standards and comply with ISO requirements. Diagnostické
+          centrum DNK, s.r.o. has consistently prioritized the enhancement of
+          service quality since its inception, continually striving to improve
+          all company processes to meet the evolving demands of our customers.
+        </p>
+      </div>
 
       <div class="section-cards">
         <div class="card">
@@ -171,12 +199,9 @@
             <a href="">VIEW</a>
           </div>
           <svg
-            viewBox="0 0 64 64"
-            id="Layer_1"
-            data-name="Layer 1"
+            viewBox="0 0 24 24"
+            fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            fill="#13625d"
-            stroke="#13625d"
           >
             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
             <g
@@ -185,69 +210,98 @@
               stroke-linejoin="round"
             ></g>
             <g id="SVGRepo_iconCarrier">
-              <defs>
-                <style>
-                  .cls-1 {
-                    fill: none;
-                    stroke: #997344;
-                    stroke-linecap: round;
-                    stroke-linejoin: round;
-                    stroke-width: 2px;
-                  }
-                </style>
-              </defs>
-              <title>science, microscope, biology, molecule</title>
               <path
-                class="cls-1"
-                d="M36,17.63a25.37,25.37,0,0,0-2.38,1.3,5.19,5.19,0,0,1-5.41,0,25.38,25.38,0,0,0-2.38-1.3c1.26-3.63,3.07-5.9,5.08-5.9a3.77,3.77,0,0,1,2.79,1.56"
+                d="M12.0565 18.9998C15.9224 19.031 19.031 15.9224 18.9998 12.0565C18.9686 8.19062 15.8094 5.03143 11.9435 5.00023C8.07765 4.96904 4.96904 8.07765 5.00023 11.9435C5.03143 15.8094 8.19062 18.9686 12.0565 18.9998Z"
+                stroke="#997344"
+                stroke-width="1.5"
+                stroke-linecap="round"
               ></path>
               <path
-                class="cls-1"
-                d="M18.67,34.95c-3.63-1.26-5.9-3.07-5.9-5.08S15,26,18.67,24.79A25.41,25.41,0,0,0,20,27.16a5.19,5.19,0,0,1,.57,4.1"
+                d="M18 6L16.95 7.05003"
+                stroke="#997344"
+                stroke-width="1.5"
+                stroke-linecap="round"
               ></path>
               <path
-                class="cls-1"
-                d="M25.83,17.63c-.27.77-.51,1.61-.72,2.49a5.34,5.34,0,0,1-3.95,3.95c-.89.21-1.72.45-2.49.72-1.68-3.45-2-6.33-.59-7.75S22.38,15.95,25.83,17.63Z"
+                d="M5 5L7 7"
+                stroke="#997344"
+                stroke-width="1.5"
+                stroke-linecap="round"
               ></path>
               <path
-                class="cls-1"
-                d="M18.67,34.95c.77.27,1.61.51,2.49.72a5.34,5.34,0,0,1,3.95,3.95c.21.89.45,1.72.72,2.49-3.45,1.68-6.33,2-7.75.59-.86-.86-1.08-2.25-.75-4"
+                d="M17.0498 18.0498L16.5 17.5"
+                stroke="#997344"
+                stroke-width="1.5"
+                stroke-linecap="round"
               ></path>
               <path
-                class="cls-1"
-                d="M36,17.63a17.18,17.18,0,0,1,2.95-1.14,8.07,8.07,0,0,1,2.63-.33"
+                d="M6 19.0498L7.05003 17.9998"
+                stroke="#997344"
+                stroke-width="1.5"
+                stroke-linecap="round"
               ></path>
               <path
-                class="cls-1"
-                d="M30.91,36.26a6.18,6.18,0,0,1-1.56-.2,5.9,5.9,0,0,1-1.72-.71A6.37,6.37,0,0,1,25.34,33a6.28,6.28,0,0,1-.82-3.13,6.29,6.29,0,0,1,.81-3.11,6.39,6.39,0,0,1,8.3-2.68"
-              ></path>
-              <circle cx="30.91" cy="29.87" r="1"></circle>
-              <path
-                class="cls-1"
-                d="M39.84,23.53l2.63-2.63a3.83,3.83,0,0,1,3.17-1.1,3.76,3.76,0,0,1,2.29,1.1A3.82,3.82,0,0,1,49,23.2q0,.22,0,.44a3.82,3.82,0,0,1-1.12,2.73l-4.39,4.4A3.85,3.85,0,0,1,37,28.47"
+                d="M16.5 13C16.5 14.1046 15.6046 15 14.5 15C13.3954 15 12.5 14.1046 12.5 13C12.5 11.8954 13.3954 11 14.5 11C15.6046 11 16.5 11.8954 16.5 13Z"
+                stroke="#997344"
+                stroke-width="1.5"
               ></path>
               <path
-                class="cls-1"
-                d="M40.36,31.86l-1.93,1.93a1.06,1.06,0,0,1-1.49,0L35,31.89a1.06,1.06,0,0,1,0-1.49L37,28.47a3.82,3.82,0,0,0,3.39,3.39Z"
+                d="M11 9C11 9.55228 10.5523 10 10 10C9.44772 10 9 9.55228 9 9C9 8.44772 9.44772 8 10 8C10.5523 8 11 8.44772 11 9Z"
+                stroke="#997344"
+                stroke-width="1.5"
+              ></path>
+              <circle cx="9" cy="13" r="1" fill="#997344"></circle>
+              <circle
+                cx="19.5"
+                cy="4.5"
+                r="1.5"
+                stroke="#997344"
+                stroke-width="1.5"
+              ></circle>
+              <circle
+                cx="1.5"
+                cy="1.5"
+                r="1.5"
+                transform="matrix(-1 0 0 1 5 2)"
+                stroke="#997344"
+                stroke-width="1.5"
+              ></circle>
+              <path
+                d="M2 12C2 12.8284 2.67157 13.5 3.5 13.5C4.32843 13.5 5 12.8284 5 12C5 11.1716 4.32843 10.5 3.5 10.5C2.67157 10.5 2 11.1716 2 12Z"
+                stroke="#997344"
+                stroke-width="1.5"
+              ></path>
+              <circle
+                cx="1.5"
+                cy="1.5"
+                r="1.5"
+                transform="matrix(1 0 0 -1 17.0498 21.0498)"
+                stroke="#997344"
+                stroke-width="1.5"
+              ></circle>
+              <circle
+                cx="4.5"
+                cy="20.5"
+                r="1.5"
+                transform="rotate(180 4.5 20.5)"
+                stroke="#997344"
+                stroke-width="1.5"
+              ></circle>
+              <path
+                d="M13.5 3.5C13.5 4.32843 12.8284 5 12 5C11.1716 5 10.5 4.32843 10.5 3.5C10.5 2.67157 11.1716 2 12 2C12.8284 2 13.5 2.67157 13.5 3.5Z"
+                stroke="#997344"
+                stroke-width="1.5"
               ></path>
               <path
-                class="cls-1"
-                d="M49,17.9l1.89,1.89a1.06,1.06,0,0,1,0,1.49L49,23.2"
+                d="M19.5 13.5C20.3284 13.5 21 12.8284 21 12C21 11.1716 20.3284 10.5 19.5 10.5C19.3247 10.5 19.1564 10.5301 19 10.5854V13.4146C19.1564 13.4699 19.3247 13.5 19.5 13.5Z"
+                stroke="#997344"
+                stroke-width="1.5"
               ></path>
               <path
-                class="cls-1"
-                d="M45.64,28.66l2.82,2.8a7.94,7.94,0,0,1,0,11.26L44.15,47"
+                d="M10.5852 19C10.7911 19.5826 11.3468 20.0001 11.9999 20.0001C12.653 20.0001 13.2086 19.5826 13.4146 19L10.5852 19Z"
+                stroke="#997344"
+                stroke-width="1.5"
               ></path>
-              <path
-                class="cls-1"
-                d="M40.29,46.77H24.47a1.9,1.9,0,0,1-1.9-1.89v-.19a1.91,1.91,0,0,1,1.9-1.9H39.29"
-              ></path>
-              <path
-                class="cls-1"
-                d="M44.15,47a2.32,2.32,0,0,1,1.23,2v.22a2.32,2.32,0,0,1-2.3,2.31H22.68a2.32,2.32,0,0,1-2.3-2.31v-.22a2.32,2.32,0,0,1,2.3-2.31h2.48"
-              ></path>
-              <circle cx="38.1" cy="25.36" r="1"></circle>
-              <circle cx="42.48" cy="42.79" r="1"></circle>
             </g>
           </svg>
         </div>
@@ -413,6 +467,7 @@
         </g>
       </svg>
       <h1>CONTACT US</h1>
+
       <div class="contact">
         <ul>
           <li>
@@ -506,9 +561,47 @@
           <li>+421 911 211 404</li>
         </ul>
       </div>
+
+      <!-- CONTACT FORM -->
+      <form action="contact_form_code.php" method="post" id="contact_form">
+        <input
+          type="text"
+          name="name"
+          class="input-style"
+          placeholder="Your name / Company name"
+        />
+
+        <input
+          type="email"
+          name="mail"
+          class="input-style"
+          placeholder="Your e-mail"
+        />
+
+        <input
+          type="text"
+          name="subject"
+          class="input-style"
+          placeholder="Phone number"
+        />
+
+        <textarea
+          name="message"
+          class="input-style"
+          placeholder="Message"
+        ></textarea>
+
+        <p>
+          By submitting this form, you agree to the processing and storage of
+          personal data for marketing purposes.
+        </p>
+
+        <button type="submit" name="send" class="button-style">SEND</button>
+      </form>
     </footer>
     <div class="copiright">
       <i>Copyright © 2024 InnovaDx.sk</i>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
